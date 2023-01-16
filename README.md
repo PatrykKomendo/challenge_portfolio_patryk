@@ -60,3 +60,5 @@ Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" -
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
+ ![image](https://user-images.githubusercontent.com/87646868/212750739-07107fc3-b8bd-4286-9f81-4ab3b218437f.png)
+
