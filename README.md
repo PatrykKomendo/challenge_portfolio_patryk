@@ -24,9 +24,9 @@ Z poziomu strony głównej mamy możliwość:
 
 - sprawdzenia w sekcji "Aktywność" ostatnio stworzonego gracza, ostatnio zaktualizowanego gracza, ostatnio stworzony mecz, ostatnio zaktuallizowany mecz i ostatnio zaktualizowany raport.
 
-- dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze"
+- dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze" - **myślę, że te opcję można przenieść do lewego panelu, lub zmienić nazwę sekcji, ponieważ "Linki pomocnicze" kojarzą mi się bardziej z linkami do kontaktu z pomocą techniczną**
 
-- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj")
+- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że "Scouts panel na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną 😆 "**
 
 - w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact")
 
@@ -34,7 +34,7 @@ Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami taki
 
 Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
 
-Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
+Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza. - **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również buttona "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony
 
 Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian.
 
@@ -46,7 +46,7 @@ W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpoczn
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać.**
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi.**
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
