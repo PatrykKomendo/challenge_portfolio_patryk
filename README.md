@@ -16,10 +16,44 @@ Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowa
 
  **2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)**
  
-Funkcjonalności jakie są dostępne to: 
+💡 Funkcjonalności jakie są dostępne to: 
 
 Logowanie do aplikacji, które po wprowadzeniu właściwych danych użytkownika przekierowuje nas na stronę główną aplikacji oraz zmiana języka aplikacji (dostępny polski i angielski). Istnieje możliwość przypomnienia hasła. Po kliknięciu w przycisk logowania aplikacja przekierowuje użytkownika na stronę główną.
 
+Z poziomu strony głównej użytkownik ma możliwość dodania nowego gracza - ta opcja znajduje się w sekcji "Linki pomocnicze". 
+W sekcji "Aktywność" użytkownik może znaleźć takie informacje jak: "Ostatnio stworzony gracz",  "Ostatnio zaaktualizowany gracz", "Ostatnio stworzony mecz", "Ostatnio zaaktualizowany mecz", "Ostatnio zaaktualizowany raport". 
+Pod każdą z informacji znajduje się jedna pozycja, klikając w którąś z informacji użytkownik zostanie przekierowany do widoku edycji osatniego gracza/meczu etc. W sekcji "Scouts panel" znajduje się link do kontaktu z zespołem developerskim "DEV TEAM CONTACT".
+
+Na stronie głównej, po jej lewej stronie znajdziemy panel z takimi opcjami jak: 
+"Strona główna" - przekierowuje użytkownika na stronę główną
+
+"Gracze" - przekierowuje użytkownika do widoku utworzonych graczy
+
+Zmiana języka aplikacji (dostępny język angielski oraz polski)
+
+Użytkownik widzi prycisk "Wyloguj"- który wylogowuje go z aplikacji
+
+Na stronie podglądu graczy użytkownik znajdzie: 
+
+Wyszukiwarkę graczy - funkcja wyszukiwania graczy 
+
+ Listę graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. 
+ 
+Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
+
+Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
+
+Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian.
+
+W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
+
+Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna zawodnika, "Zdobyte gole", "Stracone gole", "Drużyna przeciwna", "Data", "Czas gry", "Recenzja", "Autor" oraz "Akcje". 
+
+W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpocznij mecz".
+
+Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
+
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - 
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
