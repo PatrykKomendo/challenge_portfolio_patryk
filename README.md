@@ -26,17 +26,17 @@ Z poziomu strony głównej mamy możliwość:
 
 - dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze" - **myślę, że te opcję można przenieść do lewego panelu, lub zmienić nazwę sekcji, ponieważ "Linki pomocnicze" kojarzą mi się bardziej z linkami do kontaktu z pomocą techniczną**
 
-- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że "Scouts panel na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną 😆 "**
+- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że nagłówek "Scouts panel" na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną 😆 "**
 
 - w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact")
 
-Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. 
+Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji**
 
 Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
 
-Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza. - **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również buttona "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony
+Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
 
-Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian.
+Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również buttona "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony**
 
 W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
 
@@ -46,10 +46,14 @@ W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpoczn
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi.**
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi - musiałbym poświęcić na to więcej czasu, niestety nie zdążyłem 😞 - ale użytkownik nie powinien mieć tego typu wątpliości 😄**
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
+
+
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
+ 
+ Na większość tego pytania odpowiedziałem podczas odpowiadania na pytanie 2 - najwięcej problemów zdecydowanie sprawiła mi funkcja "Rozpocznij mecz".
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
