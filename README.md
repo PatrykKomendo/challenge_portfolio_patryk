@@ -11,8 +11,10 @@ Zdecydowałem się na wzięcie udziału w challeng'u **DareIT** dla testerów ma
 ## Subtask 4
 
  **1. Na czym polega ta aplikacja? Do czego służy?**
+Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowaniu na przeglądanie dodanych w aplikacji graczy, umożliwia również ich dodawanie i edycję. Istnieje również możliwość dodawania i edycji meczów oraz raportów. Została również udostępniona opcja "Rozpoczij mecz". Dostępna jest w dwóch językach - polskim oraz angielskim.
 
  **2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)**
+ 
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
