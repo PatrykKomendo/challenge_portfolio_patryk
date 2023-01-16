@@ -46,7 +46,7 @@ W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpoczn
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać.
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać.**
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
