@@ -16,6 +16,10 @@ Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowa
 
  **2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)**
  
+Funkcjonalności jakie są dostępne to: 
+
+Logowanie do aplikacji, które po wprowadzeniu właściwych danych użytkownika przekierowuje nas na stronę główną aplikacji oraz zmiana języka aplikacji (dostępny polski i angielski). Istnieje możliwość przypomnienia hasła. Po kliknięciu w przycisk logowania aplikacja przekierowuje użytkownika na stronę główną.
+
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
