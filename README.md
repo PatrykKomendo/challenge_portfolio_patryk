@@ -1,7 +1,7 @@
 # Task 1
 
 ### Subtask 1
-9/10 punktów :smile:
+Wynik z testu: 9/10 punktów :smile:
 
 ### Subtask 3
 🧑‍💻 Cześć! Mam na imię [Patryk](https://www.linkedin.com/in/patryk-komendo/). 
