@@ -26,7 +26,17 @@ Z poziomu strony głównej mamy możliwość:
 
 - dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze"
 
--
+- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj")
+
+- w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact")
+
+Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. 
+
+Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
+
+Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
+
+Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian.
 
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
