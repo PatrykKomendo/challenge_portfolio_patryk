@@ -22,8 +22,11 @@ Logowanie do aplikacji, które po wprowadzeniu właściwych danych użytkownika 
 
 Z poziomu strony głównej mamy możliwość:
 
-- prawdzenia w sekcji "Aktywność" ostatnio stworzonego gracza, ostatnio zaktualizowanego gracza, ostatnio stworzony mecz, ostatnio zaktuallizowany mecz i ostatnio zaktualizowany raport.
+- sprawdzenia w sekcji "Aktywność" ostatnio stworzonego gracza, ostatnio zaktualizowanego gracza, ostatnio stworzony mecz, ostatnio zaktuallizowany mecz i ostatnio zaktualizowany raport.
 
+- dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze"
+
+-
 
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
