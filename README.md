@@ -38,6 +38,15 @@ Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do 
 
 Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian.
 
+W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
+
+Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna zawodnika, "Zdobyte gole", "Stracone gole", "Drużyna przeciwna", "Data", "Czas gry", "Recenzja", "Autor" oraz "Akcje". 
+
+W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpocznij mecz".
+
+Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
+
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ"
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
