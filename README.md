@@ -61,7 +61,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
  
- **Błędy, które znalazłem (a przynajmniej to, co wydaje mi się błędem 🕵️):**
+ ** Błędy, które znalazłem (a przynajmniej to, co wydaje mi się błędem 🕵️):**
  
  **1. Strona logowania**
  
@@ -99,7 +99,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy 
 
-- nazwę województw piszemy małą literą (pole "Województwo")
+- nazwy województw piszemy małą literą (pole "Województwo")
 
 **4. Zakładka "Mecze"**
 
@@ -114,8 +114,6 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 **Funkcja "Dodaj raport"**
 
 - przycisk "CLEAR" jest tutaj niepotrzebny, ponieważ nie pełni żadnej funkcji (pola "ID gracza" oraz "ID meczu" są zablokowane)
-
-- nie znalazłem innego miejsca, gdzię można "podejrzeć" ID - również format ID wydaje mi się dość dziwny (zbyt skomplikowany)
 
 **Funkcja "Rozpocznij mecz"**
 
