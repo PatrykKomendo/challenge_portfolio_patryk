@@ -46,11 +46,11 @@ W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpoczn
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi - musiałbym poświęcić na to więcej czasu, niestety nie zdążyłem 😞 - ale użytkownik nie powinien mieć tego typu wątpliości 😄**
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi - musiałbym poświęcić na to więcej czasu, niestety nie zdążyłem 😞 - ale uważam, że użytkownik nie powinien mieć tego typu wątpliości 😄**
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-
+Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? :think:
 
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
  
