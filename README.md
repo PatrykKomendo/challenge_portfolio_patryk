@@ -90,4 +90,9 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych
 
-- brak walidacji: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy).  
+- brak/niewłaściwa walidacja: 
+- możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Można zapisać zostawiając puste pola z wymaganymi (*) danymi 
+
+- możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy 
+
+- nazwę województw piszemy małą literą (pole "Województwo)
