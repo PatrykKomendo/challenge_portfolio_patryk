@@ -26,7 +26,7 @@ Z poziomu strony głównej mamy możliwość:
 
 - dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze" - **myślę, że te opcję można przenieść do lewego panelu, lub zmienić nazwę sekcji, ponieważ "Linki pomocnicze" kojarzą mi się bardziej z linkami do kontaktu z pomocą techniczną.**
 
-- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że nagłówek "Scouts panel" na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną 😆**
+- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że nagłówek "Scouts panel" na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną. 😆**
 
 - w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact").
 
