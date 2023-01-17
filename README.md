@@ -61,7 +61,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
  
- **:bug: Błędy, które znalazłem (a przynajmniej to, co wydaje mi się błędem 🕵️):** 
+ :bug: **Błędy, które znalazłem (a przynajmniej to, co wydaje mi się błędem 🕵️)**: 
  
  **1. Strona logowania**
  
