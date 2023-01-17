@@ -4,7 +4,7 @@
 Wynik z testu: 9/10 punktów :smile:
 
 ## Subtask 3
-### 🧑‍💻 Cześć! Mam na imię [Patryk](https://www.linkedin.com/in/patryk-komendo/). 
+### 🧑‍💻 Cześć! Mam na imię Patryk. 
 
 Zdecydowałem się na wzięcie udziału w challeng'u **DareIT** dla testerów manualnych, ponieważ zależy mi na sprawdzeniu/poszerzeniu swoich umiejętności testerskich poprzez praktykę - o którą trudno na początku drogi testera, a jednocześnie jest tak ważna. Chcę wykorzystać szansę na stworzenie portfolio oraz poznanie nowych ludzi, którzy również zainteresowali się testowaniem oprogramowania/są testerami od lat. Lubię wyzwamnia, dlatego spróbuję sporstać wszystkim zadaniom w tym projekcie. Głęboko wierzę, że pomoże mi to w zdobyciu wymarzonej pracy i jednocześnie będzie dobrą zabawą. Jeżeli chodzi o moje zainteresowania to jestem fanem gier wideo 🕹️ , lubię także od czasu do czasu zagłębić się w świat astrofizyki. 🚀
 
@@ -70,4 +70,24 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 **2. Strona główna**
 
-- 
+- na początek literówka, którą wyłapałem - "zaaktualizowany" zamiast "zaktualizowany" w sekcji "Aktywność"
+
+- gdy ustawiony jest język polski to przy opcji zmiany języka mamy "English", a gdy strona jest ustawiona w języku angielskim to mamy "Polski" - dla mnie to trochę mylące. Tutaj też podobnie jak na stronie logowania "Scout panel" nie został przetłumaczony, podobnie "DEV TEAM CONTACT".
+
+- szkoda, że info "Ilość graczy", "Ilość meczy", "Ilość raportów", "Ilość akcji" nie są podlinkowane i po kliknięciu nie przekierowują użytkownika do odpowiedniej strony aplikacji (to bardziej improvement niż bug). 😉
+
+- jeżeli użytkownik wprowadzi i nie zapisze zmian na stronie "Rozpocznij mecz" to na stronie głównej pojawia się dodatkowa sekcja "Niezapisany mecz". Pojawia się tam opcja "WRÓĆ DO RAPORTU" - podany link nie działa.
+
+**3. Strona "Gracze"**
+
+- brak możliwości sortowania po ilości rozgranych meczy oraz raportów - chyba, że takie jest założenie 😄
+
+- pobrany plik .CSV wydaje się źle sformatowany
+
+- pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża"
+
+** Strona "Edycja gracza"**
+
+- brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych
+
+- brak walidacji: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy).  
