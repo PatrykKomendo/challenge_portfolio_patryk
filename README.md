@@ -119,9 +119,11 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - możliwość wprowadzania akcji tylko przy włączonym czasie - gracz mógł np. podać, po 2 sekundach odzyskać piłkę i strzelić - a dłużej zajmie użytkownikowi wprowadzenie pierwszego podania. 
 
-- możliwość wprowadzania i wykonywania takich akcji przez gracza jak np. strzał z rzutu karnego poza linią boiska
+- możliwość wprowadzania i wykonywania takich akcji przez gracza jak np. strzał z rzutu karnego poza linią boiska.
 
 - nie działa przycisk z ikoną śmietnika - nie wiem, czy powinno służyć anulacji wprowadzonych zmian, czy usunięciu meczu, ale po kliknięciu wydaje się, że nie ma żadnej reakcji.
+
+- "Zle przyjecie" zamiast "Złe przyjęcie" w akcji "Strata". "Przejecie podania" zmiast "Przejęcie podania" w akcji "Odbiór".
 
 **Strona "Raporty"**
 
@@ -129,8 +131,8 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 **Strona Edycji raportu dla gracza**
 
-- link do meczu prowadzi do strony z komunikatem 404- page not found. Błąd można zaobserwować równiez w Devtoolsach w zakładce Network 
+- link do meczu prowadzi do strony z komunikatem 404- page not found. Błąd można zaobserwować równiez w Devtoolsach w zakładce "Network". 
 
 - tutaj również nie wszystkie elementy zostały spolszczone.
 
-- nieograniczone pola tekstowe
+- nieograniczone pola tekstowe.
