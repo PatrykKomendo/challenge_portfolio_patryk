@@ -50,10 +50,24 @@ Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? :think:
+Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? 🤔
 
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
  
  Na większość tego pytania odpowiedziałem podczas odpowiadania na pytanie 2 - najwięcej problemów zdecydowanie sprawiła mi funkcja "Rozpocznij mecz".
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
+ 
+ **Błędy, które znalazłem:**
+ 
+ **1. Strona logowania**
+ 
+ - wybierając język polski - jeżeli wpiszemy nieprawidłowe dane logowania pojawi się odpowiedni komunikat walidacyjny - ale nieprzetłumaczony na język polski, mimo iż wszystkie inne elementy są w języku polskim. Pojawiający się komunikat walidacyjny doprowadza do tego, że button "ZALOGUJ" oraz opcja wyboru języka zmieniają swoje położenie i są ucięte.
+
+- tutaj też nasuwa się pytanie co z nazwą "Scouts panel" - czy jest to uznawane jako nazwa własna, czy też powinna być przetłumaczona.
+
+- opcja "Przypomnij hasło" - nieprawidłowa weryfikacja adresu email - można zostawić pole puste/uzupełnić adresem o nieprawidłowym formacie i po kliknięciu button'a "WYŚlIJ" - pojawia się komunikat walidacyjny, że "Wysłano wiadomość na podany adres email". Zostaje zablokowany button "WYŚLIJ" (jeżeli użytkownik się pomyli i sam się zorientuje, bądź wejdzie na skrzynkę pocztową i nie otrzyma wiadomości zapewne będzie chciał ponowić próbę przypomnienia hasła - użytkownik musi najpierw wrócić do strony logowania).
+
+**2. Strona główna**
+
+- 
