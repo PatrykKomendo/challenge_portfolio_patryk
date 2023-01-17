@@ -58,7 +58,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
  **5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! 😉**
  
- **Błędy, które znalazłem:**
+ **Błędy, które znalazłem (a przynajmniej to, co wydaje mi się błędem 🕵️):**
  
  **1. Strona logowania**
  
@@ -86,13 +86,18 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża"
 
-** Strona "Edycja gracza"**
+**Strona "Edycja gracza"**
 
 - brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych
 
-- brak/niewłaściwa walidacja: 
-- możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Można zapisać zostawiając puste pola z wymaganymi (*) danymi 
+- brak/niewłaściwa walidacja: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Można zapisać zostawiając puste pola z wymaganymi (*) danymi 
 
 - możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy 
 
 - nazwę województw piszemy małą literą (pole "Województwo)
+
+**4. Zakładka "Mecze"**
+
+- brak możliwości sortowania wg kategorii, rownież brak filtrowania (improvement 😉) - tutaj też nie ma opcji pobrania pliku i drukowaia - nie wiadomo, czy to błąd, ale skoro zostało to zaimplementowane dla zakładki "Gracze" to może warto udostępnić takie rozwiązanie również tutaj 
+
+- 
