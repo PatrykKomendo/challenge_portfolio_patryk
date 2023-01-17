@@ -12,7 +12,7 @@ Zdecydowałem się na wzięcie udziału w challeng'u **DareIT** dla testerów ma
 
  **1. Na czym polega ta aplikacja? Do czego służy?**
  
-Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowaniu na przeglądanie dodanych w aplikacji graczy, umożliwia również ich dodawanie i edycję. Istnieje również możliwość dodawania i edycji meczów oraz raportów. Została również udostępniona opcja "Rozpoczij mecz". Dostępna jest w dwóch językach - polskim oraz angielskim.
+Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowaniu na przeglądanie dodanych w aplikacji graczy, umożliwia również ich dodawanie i edycję. Istnieje również możliwość dodawania i edycji meczów oraz raportów. Została również udostępniona opcja "Rozpoczij mecz", w której użytkownik jest w stanie wprowadzić konkretne akcje zawodnika wykonane w meczu i prześledzić je w widoku edycji meczu dla gracza. Aplikacja dostępna jest w dwóch językach - polskim oraz angielskim.
 
  **2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)**
  
@@ -36,21 +36,24 @@ Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie or
 
 Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
 
-Na stronie edycji gracza użytkownik może uzupełniać informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również buttona "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony**
+Na stronie edycji gracza użytkownik może uzupełniać i aktualizować informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również przycisku "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony
 
 W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
 
-Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna zawodnika, "Zdobyte gole", "Stracone gole", "Drużyna przeciwna", "Data", "Czas gry", "Recenzja", "Autor" oraz "Akcje". 
+Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna zawodnika, "Zdobyte gole", "Stracone gole", "Drużyna przeciwna", "Data", "Czas gry", "Recenzja", "Autor" oraz "Akcje". W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpocznij mecz".
 
-W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpocznij mecz".
+Na stronie edycji meczu orpócz wprowadzania danych udostępniona została sekcja "Lista zdarzeń", która pozwala na śledzenie akcji wykonanych przez gracza w danym meczu.
+
+Funkcja "Rozpocznij mecz" przekierowuje nas do strony z wirtualnym boiskiem. Nad boiskiem umieszczone są przyciski rozpoczęcia meczu (lub wznowienia), pauzy, zmiany połowy, anulowania wprowadzonych akcji jedna po drugiej, zapisu oraz 
+
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - na przekierowanej stronie znajduje się formularz do wypełnienia oraz przycisk "SUBMIT" i "CLEAR"
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **Tutaj mamy ogrom opcji i ustawień, ja jako użytkownik bez dostępu do instrukcji/dokumentacji nie zrozumiałem jak ta funkcja powinna działać i co robi - musiałbym poświęcić na to więcej czasu, niestety nie zdążyłem 😞 - ale uważam, że użytkownik nie powinien mieć tego typu wątpliości 😄**
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? 🤔 Design raportów nie do końca mi się podoba - brakuje tutaj tego minimalistycznego podejścia jak w pozostałych elementach aplikacji. 
+Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? 🤔 Design raportów nie do końca mi się podoba - brakuje tutaj tego prostego, minimalistycznego podejścia jak w pozostałych elementach aplikacji. 
 
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
  
@@ -66,7 +69,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - tutaj też nasuwa się pytanie co z nazwą "Scouts panel" - czy jest to uznawane jako nazwa własna, czy też powinna być przetłumaczona.
 
-- opcja "Przypomnij hasło" - nieprawidłowa weryfikacja adresu email - można zostawić pole puste/uzupełnić adresem o nieprawidłowym formacie i po kliknięciu button'a "WYŚlIJ" - pojawia się komunikat walidacyjny, że "Wysłano wiadomość na podany adres email". Zostaje zablokowany button "WYŚLIJ" (jeżeli użytkownik się pomyli i sam się zorientuje, bądź wejdzie na skrzynkę pocztową i nie otrzyma wiadomości zapewne będzie chciał ponowić próbę przypomnienia hasła - użytkownik musi najpierw wrócić do strony logowania).
+- opcja "Przypomnij hasło" - nieprawidłowa weryfikacja adresu email - można zostawić pole puste/uzupełnić adresem o nieprawidłowym formacie i po kliknięciu button'a "WYŚlIJ" - pojawia się komunikat walidacyjny, że "Wysłano wiadomość na podany adres email". Zostaje zablokowany button "WYŚLIJ" (jeżeli użytkownik się pomyli i sam się zorientuje, bądź wejdzie na skrzynkę pocztową i nie otrzyma wiadomości zapewne będzie chciał ponowić próbę przypomnienia hasła - użytkownik musi najpierw wrócić do strony logowania). 
 
 **2. Strona główna**
 
@@ -86,18 +89,49 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża"
 
+- nazwy button'ów nie zostały spolszczone ("SUBMIT" oraz "CLEAR")
+
 **Strona "Edycja gracza"**
 
 - brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych
 
-- brak/niewłaściwa walidacja: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Można zapisać zostawiając puste pola z wymaganymi (*) danymi 
+- brak/niewłaściwa walidacja: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji).
 
 - możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy 
 
-- nazwę województw piszemy małą literą (pole "Województwo)
+- nazwę województw piszemy małą literą (pole "Województwo")
 
 **4. Zakładka "Mecze"**
 
-- brak możliwości sortowania wg kategorii, rownież brak filtrowania (improvement 😉) - tutaj też nie ma opcji pobrania pliku i drukowaia - nie wiadomo, czy to błąd, ale skoro zostało to zaimplementowane dla zakładki "Gracze" to może warto udostępnić takie rozwiązanie również tutaj 
+- brak możliwości sortowania wg kategorii, rownież brak filtrowania (improvement 😉) - tutaj też nie ma opcji pobrania pliku i drukowaia - nie wiadomo, czy to błąd, ale skoro zostało to zaimplementowane dla zakładki "Gracze" to może warto udostępnić takie rozwiązanie również tutaj? Podobnie jest w zakładkach "Mecze" oraz "Raporty"
 
-- 
+**Funkcja DODAJ MECZ**
+
+- tutaj również część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji). W polu "Data" możemy wybrać taką datę jak 01.01.0001 lub 01.01.9999. Użytkownik może podać ujemny czas gry lub ogromne wartości (mecz piłki nożnej trwa 90 minut + ewentualne dogrywki). Numery na koszulkach też nie posiadają wartości ujemnych. Kolor koszulki może też powinien być polem select? 😄 
+
+- nie wszystko zostało przetłumaczone na język polski - "Web match" oraz "Gerneral". Podobnie button'y "SUBMIT" oraz "CLEAR"
+
+**Funkcja "Dodaj raport"**
+
+- przycisk "CLEAR" jest tutaj niepotrzebny, ponieważ nie pełni żadnej funkcji (pola "ID gracza" oraz "ID meczu" są zablokowane)
+
+- nie znalazłem innego miejsca, gdzię można "podejrzeć" ID - również format ID wydaje mi się dość dziwny (zbyt skomplikowany)
+
+**Funkcja "Rozpocznij mecz"**
+
+- możliwość wprowadzenia większej liczby w sekcji "Połowa" niż 2 😅. Czas również jest nieograniczony, więc gracz mógł wykonać akcję np w 9999 minucie
+
+- możliwość wprowadzania akcji tylko przy włączonym czasie
+
+- nie działa przycisk z ikoną śmietnika - nie wiem, czy powinno służyć anulacji wprowadzonych zmian, czy usunięciu meczu, ale po kliknięciu wydaje się, że nie ma żadnej reakcji
+
+**Strona "Raporty"**
+
+- przycisk "DODAJ RAPORT" przekierowuje do zakładki "Mecze"
+
+**Strona Edycji raportu dla gracza**
+
+- link do meczu prowadzi do strony z komunikatem 404- page not found. Błąd można zaobserwować równiez w Devtoolsach w zakładce Network 
+
+- tutaj również nie wszystkie elementy zostały spolszczone
+
