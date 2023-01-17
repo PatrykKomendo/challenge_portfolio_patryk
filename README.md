@@ -50,7 +50,7 @@ Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - **
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
-Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? 🤔
+Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych elementach aplikacji. Myślę, że fajnie, gdyby na tej stronie było też jakieś logo aplikacji. Ogólnie poza rozmieszczeniem niektórych elementów design mi się podoba - jest minimalistyczny, ale za to czytelny. Na stronie "Rozpocznij mecz" jest bardzo dużo pustego miejsca - może warto dodać tam jakąś instrukcję działania tej funkcjonalności? 🤔 Design raportów nie do końca mi się podoba - brakuje tutaj tego minimalistycznego podejścia jak w pozostałych elementach aplikacji. 
 
  **4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**
  
