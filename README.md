@@ -30,13 +30,13 @@ Z poziomu strony głównej mamy możliwość:
 
 - w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact")
 
-Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji**
+Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji - wiąże się ten problem z polami prowadzania danych, o czym jezcze wspomnę 😉**
 
 Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
 
 Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
 
-Na stronie edycji gracza użytkownik może uzupełniać i aktualizować informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również przycisku "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony
+Na stronie edycji gracza użytkownik może uzupełniać i aktualizować informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również przycisku "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony.**
 
 W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
 
@@ -44,11 +44,11 @@ Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna 
 
 Na stronie edycji meczu orpócz wprowadzania danych udostępniona została sekcja "Lista zdarzeń", która pozwala na śledzenie akcji wykonanych przez gracza w danym meczu.
 
-Funkcja "Rozpocznij mecz" przekierowuje nas do strony z wirtualnym boiskiem. Nad boiskiem umieszczone są przyciski rozpoczęcia meczu (lub wznowienia), pauzy, zmiany połowy, anulowania wprowadzonych akcji jedna po drugiej, zapisu oraz 
+Funkcja "Rozpocznij mecz" przekierowuje nas do strony z wirtualnym boiskiem. Nad boiskiem umieszczone są przyciski rozpoczęcia meczu (lub wznowienia), pauzy, zmiany połowy, anulowania wprowadzonych akcji jedna po drugiej, zapisu oraz chyba usunięcia - **przyciski nie są podpisane, nie do końca wiadomo od początku do czego służą**. Po najechaniu kursorem myszy na konkretny punkt na boisku i kliknięciu pojawiają się akcje możliwe do wykonania przez gracza. Po zapisaniu użytkownik widzi punkt, w którym dodał konkretną akcję. **musiałem chwilę się zastannowić zanim "odkryłem" na czym ta funkcja polega, myślę, że przydałby się jakiś tutorial dla nowych użytkowników.**
 
-Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - na przekierowanej stronie znajduje się formularz do wypełnienia oraz przycisk "SUBMIT" i "CLEAR"
+Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - na przekierowanej stronie znajduje się formularz do wypełnienia oraz przycisk "SUBMIT" i "CLEAR".
 
-Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk DODAJ "RAPORT".
+Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk "DODAJ RAPORT".
 
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
@@ -75,7 +75,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - na początek literówka, którą wyłapałem - "zaaktualizowany" zamiast "zaktualizowany" w sekcji "Aktywność"
 
-- gdy ustawiony jest język polski to przy opcji zmiany języka mamy "English", a gdy strona jest ustawiona w języku angielskim to mamy "Polski" - dla mnie to trochę mylące. Tutaj też podobnie jak na stronie logowania "Scout panel" nie został przetłumaczony, podobnie "DEV TEAM CONTACT".
+- tutaj też podobnie jak na stronie logowania "Scout panel" nie został przetłumaczony, podobnie "DEV TEAM CONTACT".
 
 - szkoda, że info "Ilość graczy", "Ilość meczy", "Ilość raportów", "Ilość akcji" nie są podlinkowane i po kliknięciu nie przekierowują użytkownika do odpowiedniej strony aplikacji (to bardziej improvement niż bug). 😉
 
@@ -83,53 +83,55 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 **3. Strona "Gracze"**
 
-- brak możliwości sortowania po ilości rozgranych meczy oraz raportów - chyba, że takie jest założenie 😄
+- brak możliwości sortowania po ilości rozgranych meczy oraz raportów - chyba, że takie jest założenie. 😄
 
-- pobrany plik .CSV wydaje się źle sformatowany
+- pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża".
 
-- pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża"
-
-- nazwy button'ów nie zostały spolszczone ("SUBMIT" oraz "CLEAR")
+- nazwy button'ów nie zostały spolszczone ("SUBMIT" oraz "CLEAR").
 
 **Strona "Edycja gracza"**
 
-- brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych
+- brak ograniczeń wprowadzania ilości znaków w polach do uzupełniania danych.
 
 - brak/niewłaściwa walidacja: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji).
 
-- możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy 
+- możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy - jedynie ID będzie inne (musi być unikalne). 
 
-- nazwy województw piszemy małą literą (pole "Województwo")
+- nazwy województw piszemy małą literą (pole "Województwo").
 
 **4. Zakładka "Mecze"**
 
-- brak możliwości sortowania wg kategorii, rownież brak filtrowania (improvement 😉) - tutaj też nie ma opcji pobrania pliku i drukowaia - nie wiadomo, czy to błąd, ale skoro zostało to zaimplementowane dla zakładki "Gracze" to może warto udostępnić takie rozwiązanie również tutaj? Podobnie jest w zakładkach "Mecze" oraz "Raporty"
+- brak możliwości sortowania wg kategorii, rownież brak filtrowania (improvement 😉) - tutaj też nie ma opcji pobrania pliku i drukowaia - nie wiadomo, czy to błąd, ale skoro zostało to zaimplementowane dla zakładki "Gracze" to może warto udostępnić takie rozwiązanie również tutaj? Podobnie jest w zakładkach "Mecze" oraz "Raporty".
 
 **Funkcja DODAJ MECZ**
 
-- tutaj również część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji). W polu "Data" możemy wybrać taką datę jak 01.01.0001 lub 01.01.9999. Użytkownik może podać ujemny czas gry lub ogromne wartości (mecz piłki nożnej trwa 90 minut + ewentualne dogrywki). Numery na koszulkach też nie posiadają wartości ujemnych. Kolor koszulki może też powinien być polem select? 😄 
+- tutaj również część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji). W polu "Data" możemy wybrać taką datę jak 01.01.0001 lub 01.01.9999. Użytkownik może podać ujemny czas gry lub ogromne wartości (mecz piłki nożnej trwa 90 minut + ewentualne dogrywki). Numery na koszulkach też nie posiadają wartości ujemnych. 
 
-- nie wszystko zostało przetłumaczone na język polski - "Web match" oraz "Gerneral". Podobnie button'y "SUBMIT" oraz "CLEAR"
+- nie wszystko zostało przetłumaczone na język polski - "Web match" oraz "Gerneral". Podobnie button'y "SUBMIT" oraz "CLEAR".
 
 **Funkcja "Dodaj raport"**
 
-- przycisk "CLEAR" jest tutaj niepotrzebny, ponieważ nie pełni żadnej funkcji (pola "ID gracza" oraz "ID meczu" są zablokowane)
+- przycisk "CLEAR" jest tutaj niepotrzebny, ponieważ nie pełni żadnej funkcji (pola "ID gracza" oraz "ID meczu" są zablokowane).
 
 **Funkcja "Rozpocznij mecz"**
 
-- możliwość wprowadzenia większej liczby w sekcji "Połowa" niż 2 😅. Czas również jest nieograniczony, więc gracz mógł wykonać akcję np w 9999 minucie
+- możliwość wprowadzenia większej liczby w sekcji "Połowa" niż 2 😅. Czas również jest nieograniczony, więc gracz mógł wykonać akcję np w 9999 minucie.
 
-- możliwość wprowadzania akcji tylko przy włączonym czasie
+- możliwość wprowadzania akcji tylko przy włączonym czasie - gracz mógł np. podać, po 2 sekundach odzyskać piłkę i strzelić - a dłużej zajmie użytkownikowi wprowadzenie pierwszego podania. 
 
-- nie działa przycisk z ikoną śmietnika - nie wiem, czy powinno służyć anulacji wprowadzonych zmian, czy usunięciu meczu, ale po kliknięciu wydaje się, że nie ma żadnej reakcji
+- możliwość wprowadzania i wykonywania takich akcji przez gracza jak np. strzał z rzutu karnego poza linią boiska
+
+- nie działa przycisk z ikoną śmietnika - nie wiem, czy powinno służyć anulacji wprowadzonych zmian, czy usunięciu meczu, ale po kliknięciu wydaje się, że nie ma żadnej reakcji.
 
 **Strona "Raporty"**
 
-- przycisk "DODAJ RAPORT" przekierowuje do zakładki "Mecze"
+- przycisk "DODAJ RAPORT" przekierowuje do zakładki "Mecze".
 
 **Strona Edycji raportu dla gracza**
 
 - link do meczu prowadzi do strony z komunikatem 404- page not found. Błąd można zaobserwować równiez w Devtoolsach w zakładce Network 
 
-- tutaj również nie wszystkie elementy zostały spolszczone
+- tutaj również nie wszystkie elementy zostały spolszczone.
+
+- nieograniczone pola tekstowe
 
