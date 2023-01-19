@@ -43,7 +43,7 @@ Z poziomu strony głównej mamy możliwość:
 
 ![image](https://user-images.githubusercontent.com/87646868/213521330-d0a8a610-3611-4fb2-9540-1138953ceba7.png)
 
-Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji - wiąże się ten problem z polami prowadzania danych, o czym jezcze wspomnę. 😉**
+Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Dostępna jest również wyszukiwarka. Istnieje także możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji - wiąże się ten problem z polami prowadzania danych, o czym jezcze wspomnę. 😉**
 
 ![image](https://user-images.githubusercontent.com/87646868/213521508-d3ba4476-b301-4255-b1a2-13af18c70193.png)
 
@@ -53,17 +53,33 @@ Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie or
 
 Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
 
+![image](https://user-images.githubusercontent.com/87646868/213522010-9bb85c45-6595-4899-9f33-46e28ec5471a.png)
+
 Na stronie edycji gracza użytkownik może uzupełniać i aktualizować informację o zawodniku. Jest przycisk zapisu oraz wyczyszczenia wprowadzonych zmian. **Tuaj jest kilka pozycji, które mogą być niezrozumiałe dla nowych użytkowników- pola edycji "Łączy nas piłka" i "90 minut" - jest dla mnie niezrozumiałe to, co tutaj powinien wpisywać użytkownik. Brakuje mi tutaj również przycisku "WSTECZ", który bez zapisania wprowadzonych zmian przekierowuje użytkownika do poprzedniej strony.**
 
 W tym widoku (edycja gracza) na panelu po lewej stronie pojawiły się 2 dodatkowe sekcje: "Mecze oraz "Raporty".
 
 Na stronie "Mecze" użytkownik widzi listę z takimi informacjami jak: Drużyna zawodnika, "Zdobyte gole", "Stracone gole", "Drużyna przeciwna", "Data", "Czas gry", "Recenzja", "Autor" oraz "Akcje". W sekcji "Akcje" mamy dostępne 3 opcje: "Edytuj", "Dodaj raport" oraz "Rozpocznij mecz".
 
+![image](https://user-images.githubusercontent.com/87646868/213522290-f9ad323a-e6e7-4212-9b21-c772346d6a5c.png)
+
 Na stronie edycji meczu orpócz wprowadzania danych udostępniona została sekcja "Lista zdarzeń", która pozwala na śledzenie akcji wykonanych przez gracza w danym meczu.
 
-Funkcja "Rozpocznij mecz" przekierowuje nas do strony z wirtualnym boiskiem. Nad boiskiem umieszczone są przyciski rozpoczęcia meczu (lub wznowienia), pauzy, zmiany połowy, anulowania wprowadzonych akcji jedna po drugiej, zapisu oraz chyba usunięcia - **przyciski nie są podpisane, nie do końca wiadomo od początku do czego służą**. Po najechaniu kursorem myszy na konkretny punkt na boisku i kliknięciu pojawiają się akcje możliwe do wykonania przez gracza. Po zapisaniu użytkownik widzi punkt, w którym dodał konkretną akcję. **musiałem chwilę się zastannowić zanim "odkryłem" na czym ta funkcja polega, myślę, że przydałby się jakiś tutorial dla nowych użytkowników.**
+![image](https://user-images.githubusercontent.com/87646868/213522563-2bbfc49a-8a19-486d-8dfd-1e6de3d4c5f1.png)
+
+
+![image](https://user-images.githubusercontent.com/87646868/213522451-441c1dfa-763f-4bf3-8b80-34ddf34513d4.png)
+
+
+Funkcja "Rozpocznij mecz" przekierowuje nas do strony z wirtualnym boiskiem. Nad boiskiem umieszczone są przyciski rozpoczęcia meczu (lub wznowienia), pauzy, zmiany połowy, anulowania wprowadzonych akcji jedna po drugiej, zapisu oraz chyba usunięcia - **przyciski nie są podpisane, nie do końca wiadomo od początku do czego służą**. Po najechaniu kursorem myszy na konkretny punkt na boisku i kliknięciu pojawiają się akcje możliwe do wykonania przez gracza. Po zapisaniu użytkownik widzi punkt, w którym dodał konkretną akcję. **musiałem chwilę się zastanowić zanim "odkryłem" na czym ta funkcja polega, myślę, że przydałby się jakiś tutorial dla nowych użytkowników.**
+
+![image](https://user-images.githubusercontent.com/87646868/213522838-ba2c40d2-c6dd-4afe-aa5d-afb60c9dec2d.png)
+
 
 Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - na przekierowanej stronie znajduje się formularz do wypełnienia oraz przycisk "SUBMIT" i "CLEAR".
+
+![image](https://user-images.githubusercontent.com/87646868/213523002-d6ac2d0d-e2bb-4c3e-ad6a-102140cba3a1.png)
+
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk "DODAJ RAPORT".
 
