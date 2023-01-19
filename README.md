@@ -7,19 +7,23 @@ Wynik z testu: 9/10 punktów :smile:
 ### 🧑‍💻 Cześć! Mam na imię Patryk. 
 
 - Zdecydowałem się na wzięcie udziału w challeng'u **DareIT** dla testerów manualnych, ponieważ zależy mi na sprawdzeniu/poszerzeniu swoich umiejętności testerskich poprzez praktykę - o którą trudno na początku drogi testera, a jednocześnie jest tak ważna. Chcę wykorzystać szansę na stworzenie portfolio oraz poznanie nowych ludzi, którzy również zainteresowali się testowaniem oprogramowania/są testerami od lat. Lubię wyzwamnia, dlatego spróbuję sporstać wszystkim zadaniom w tym projekcie. Głęboko wierzę, że pomoże mi to w zdobyciu wymarzonej pracy i jednocześnie będzie dobrą zabawą. 
+
 - Jeżeli chodzi o moje zainteresowania to jestem fanem gier wideo 🕹️ , lubię także od czasu do czasu zagłębić się w świat astrofizyki. 🚀
 
 ## Subtask 4
 
  **1. Na czym polega ta aplikacja? Do czego służy?**
  
-Futbol Kolektyw - platforma skautingowa to aplikacja umożliwiająca po zalogowaniu na przeglądanie dodanych w aplikacji graczy, umożliwia również ich dodawanie i edycję. Istnieje również możliwość dodawania i edycji meczów oraz raportów. Została również udostępniona opcja "Rozpoczij mecz", w której użytkownik jest w stanie wprowadzić konkretne akcje zawodnika wykonane w meczu i prześledzić je w widoku edycji meczu dla gracza. Aplikacja dostępna jest w dwóch językach - polskim oraz angielskim.
+⚽ **Futbol Kolektyw** - platforma skautingowa to aplikacja umożliwiająca po zalogowaniu na przeglądanie dodanych w aplikacji graczy, umożliwia również ich dodawanie i edycję. Istnieje również możliwość dodawania i edycji meczów oraz raportów. Została również udostępniona opcja "Rozpoczij mecz", w której użytkownik jest w stanie wprowadzić konkretne akcje zawodnika wykonane w meczu i prześledzić je w widoku edycji meczu dla gracza. Aplikacja dostępna jest w dwóch językach - polskim oraz angielskim.
 
  **2. Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)**
  
 💡 Funkcjonalności jakie są dostępne to: 
 
 Logowanie do aplikacji, które po wprowadzeniu właściwych danych użytkownika przekierowuje nas na stronę główną aplikacji oraz zmiana języka aplikacji (dostępny polski i angielski). Istnieje możliwość przypomnienia hasła. Po kliknięciu w przycisk logowania aplikacja przekierowuje użytkownika na stronę główną.
+
+![image](https://user-images.githubusercontent.com/87646868/213520090-43d2be1c-b8df-4b1e-b720-c3d1686293a6.png)
+
 
 Z poziomu strony głównej mamy możliwość:
 
