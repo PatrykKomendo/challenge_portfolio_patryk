@@ -142,3 +142,13 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 ## Subtask 1
 
 💽 [Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
+
+## Subtask 2
+
+💽 [Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
+
+## Subtask 3
+
+🤔 [Po co piszemy test case'y?](https://www.youtube.com/watch?v=OO3FANjwKHY&t=4s)
+
+Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności.
