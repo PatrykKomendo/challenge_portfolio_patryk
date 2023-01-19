@@ -133,7 +133,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - pola wprowadzania danych nie są ograniczone daną ilością znaków, przez co uzytkownik może wpisać dużą liczbę znaków i cały widok tabeli się "rozjeżdża".
 
-- nazwy button'ów nie zostały spolszczone ("SUBMIT" oraz "CLEAR").
+![image](https://user-images.githubusercontent.com/87646868/213525509-43067e6d-196e-421d-80e2-c515cfc24f49.png)
 
 **Strona "Edycja gracza"**
 
@@ -141,9 +141,19 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - brak/niewłaściwa walidacja: możliwość wpisywania różnych typów znaków w polu "Telefon", brak weryfikacji poprawności adresu e-mail, wpisywanie cyfr/znaków specjalnych w polach "Imię", "Nazwisko". W polach "Waga" oraz wzrost" możliwość podawania ujemnych wartości, zera, górna granica również nie została ustalona. Pola takie jak "Poziom rozgrywek", "Główna pozycja", "Pozycja alternatywna" powinny być polami typu select - podobnie jak jest to w przypadku pola "Dominująca noga" (mamy w piłce nożnej z góry ustalone poziomy rozgrywek, pozycje etc, a tutaj użytkownik jest w stanie wpisać co tylko przyjdzie mu do głowy 😅). Opcja "DODAJ JĘZYK" - podobnie uważam, że pole typu select byłoby lepszym wyborem. Część walidacji pozornie działa (pola required potrzebują jakiejkolwiek wartości, ale wystarczy wprowadzenie spacji).
 
+![image](https://user-images.githubusercontent.com/87646868/213526805-c242898e-045f-44d0-905e-18178ef1ac9d.png)
+
 - możliwość edycji i "stworzenia" dwóch (lub więcej) identycznych graczy - jedynie ID będzie inne (musi być unikalne). 
 
+![image](https://user-images.githubusercontent.com/87646868/213526054-8ad83ded-091c-41f4-8e4c-1f208886e04b.png)
+
 - nazwy województw piszemy małą literą (pole "Województwo").
+
+![image](https://user-images.githubusercontent.com/87646868/213525889-344fa897-303e-4294-9b8a-fbe0cc1f277c.png)
+
+- nazwy button'ów nie zostały spolszczone ("SUBMIT" oraz "CLEAR").
+
+![image](https://user-images.githubusercontent.com/87646868/213525747-859ee89a-09d8-4959-858f-0c4b21e5149d.png)
 
 **4. Zakładka "Mecze"**
 
@@ -155,6 +165,8 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - nie wszystko zostało przetłumaczone na język polski - "Web match" oraz "Gerneral". Podobnie button'y "SUBMIT" oraz "CLEAR".
 
+![image](https://user-images.githubusercontent.com/87646868/213527196-11331697-3322-4806-8eab-2e9f1be37471.png)
+
 **Funkcja "Dodaj raport"**
 
 - przycisk "CLEAR" jest tutaj niepotrzebny, ponieważ nie pełni żadnej funkcji (pola "ID gracza" oraz "ID meczu" są zablokowane).
@@ -162,6 +174,8 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 **Funkcja "Rozpocznij mecz"**
 
 - możliwość wprowadzenia większej liczby w sekcji "Połowa" niż 2 😅. Czas również jest nieograniczony, więc gracz mógł wykonać akcję np w 9999 minucie.
+
+![image](https://user-images.githubusercontent.com/87646868/213527517-7066d899-2797-40ba-9adf-42d83c0ff0ba.png)
 
 - możliwość wprowadzania akcji tylko przy włączonym czasie - gracz mógł np. podać, po 2 sekundach odzyskać piłkę i strzelić - a dłużej zajmie użytkownikowi wprowadzenie pierwszego podania. 
 
@@ -171,6 +185,10 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - "Zle przyjecie" zamiast "Złe przyjęcie" w akcji "Strata". "Przejecie podania" zmiast "Przejęcie podania" w akcji "Odbiór".
 
+![image](https://user-images.githubusercontent.com/87646868/213527763-08bd55d3-ff8e-4d25-8aab-e37cff1b2869.png)
+
+![image](https://user-images.githubusercontent.com/87646868/213527874-b91df852-d3fd-460b-a6f3-eb28da93ff60.png)
+
 **Strona "Raporty"**
 
 - przycisk "DODAJ RAPORT" przekierowuje do zakładki "Mecze".
@@ -178,6 +196,8 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 **Strona Edycji raportu dla gracza**
 
 - link do meczu prowadzi do strony z komunikatem 404- page not found. Błąd można zaobserwować równiez w Devtoolsach w zakładce "Network". 
+
+![image](https://user-images.githubusercontent.com/87646868/213528377-37d0bb12-17a9-419f-ae31-2f9a8472677a.png)
 
 - tutaj również nie wszystkie elementy zostały spolszczone.
 
