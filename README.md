@@ -83,6 +83,9 @@ Użytkownik ma możliwość dodania meczu za pomocą przycisku "DODAJ MECZ" - na
 
 Na stronie "Raporty" użytkownik widzi listę raportów. W sekcji "Akcje" jest dostępna opcja "Edytuj" - która przekierowuje do strony edycji raportu. Użytkownik powinien widziec przycisk "DODAJ RAPORT".
 
+![image](https://user-images.githubusercontent.com/87646868/213523295-50a1bfaf-686e-4355-aad7-a48e11626b04.png)
+
+![image](https://user-images.githubusercontent.com/87646868/213523415-8b145415-cd66-4492-aac7-70c790526bcc.png)
 
  **3. Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?**
 
