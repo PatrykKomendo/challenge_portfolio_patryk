@@ -22,7 +22,7 @@ Wynik z testu: 9/10 punktów :smile:
 
 Logowanie do aplikacji, które po wprowadzeniu właściwych danych użytkownika przekierowuje nas na stronę główną aplikacji oraz zmiana języka aplikacji (dostępny polski i angielski). Istnieje możliwość przypomnienia hasła. Po kliknięciu w przycisk logowania aplikacja przekierowuje użytkownika na stronę główną.
 
-![image](https://user-images.githubusercontent.com/87646868/213520090-43d2be1c-b8df-4b1e-b720-c3d1686293a6.png)
+![image](https://user-images.githubusercontent.com/87646868/213520251-abc598c0-c46a-4117-adbc-4955b5b068e7.png)
 
 
 Z poziomu strony głównej mamy możliwość:
