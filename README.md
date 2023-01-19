@@ -103,19 +103,29 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
  
  - wybierając język polski - jeżeli wpiszemy nieprawidłowe dane logowania pojawi się odpowiedni komunikat walidacyjny - ale nieprzetłumaczony na język polski, mimo iż wszystkie inne elementy są w języku polskim. Pojawiający się komunikat walidacyjny doprowadza do tego, że button "ZALOGUJ" oraz opcja wyboru języka zmieniają swoje położenie i są ucięte.
 
+![image](https://user-images.githubusercontent.com/87646868/213524262-a3792512-bb59-4c7b-81d1-473476b93ebb.png)
+
 - tutaj też nasuwa się pytanie co z nazwą "Scouts panel" - czy jest to uznawane jako nazwa własna, czy też powinna być przetłumaczona.
 
 - opcja "Przypomnij hasło" - nieprawidłowa weryfikacja adresu email - można zostawić pole puste/uzupełnić adresem o nieprawidłowym formacie i po kliknięciu button'a "WYŚlIJ" - pojawia się komunikat walidacyjny, że "Wysłano wiadomość na podany adres email". Zostaje zablokowany button "WYŚLIJ" (jeżeli użytkownik się pomyli i sam się zorientuje, bądź wejdzie na skrzynkę pocztową i nie otrzyma wiadomości zapewne będzie chciał ponowić próbę przypomnienia hasła - użytkownik musi najpierw wrócić do strony logowania). 
+
+![image](https://user-images.githubusercontent.com/87646868/213524521-b857c1a8-68c2-466d-98d7-d4aed2b32dee.png)
 
 **2. Strona główna**
 
 - na początek literówka, którą wyłapałem - "zaaktualizowany" zamiast "zaktualizowany" w sekcji "Aktywność"
 
+![image](https://user-images.githubusercontent.com/87646868/213524689-94a599d8-a873-4b94-9e19-df76b0d730d7.png)
+
 - tutaj też podobnie jak na stronie logowania "Scout panel" nie został przetłumaczony, podobnie "DEV TEAM CONTACT".
+
+![image](https://user-images.githubusercontent.com/87646868/213524777-f805a649-072f-43d7-90a8-10164f9110a6.png)
 
 - szkoda, że info "Ilość graczy", "Ilość meczy", "Ilość raportów", "Ilość akcji" nie są podlinkowane i po kliknięciu nie przekierowują użytkownika do odpowiedniej strony aplikacji (to bardziej improvement niż bug). 😉
 
 - jeżeli użytkownik wprowadzi i nie zapisze zmian na stronie "Rozpocznij mecz" to na stronie głównej pojawia się dodatkowa sekcja "Niezapisany mecz". Pojawia się tam opcja "WRÓĆ DO RAPORTU" - podany link nie działa.
+
+![image](https://user-images.githubusercontent.com/87646868/213525082-d80e7adb-5b45-4e33-8ca9-c66893dea7bd.png)
 
 **3. Strona "Gracze"**
 
