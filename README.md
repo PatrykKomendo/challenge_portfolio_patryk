@@ -29,15 +29,27 @@ Z poziomu strony głównej mamy możliwość:
 
 - sprawdzenia w sekcji "Aktywność" ostatnio stworzonego gracza, ostatnio zaktualizowanego gracza, ostatnio stworzony mecz, ostatnio zaktuallizowany mecz i ostatnio zaktualizowany raport.
 
+![image](https://user-images.githubusercontent.com/87646868/213520769-87e8bd9a-4f62-444b-8060-30f26be5dc6b.png)
+
 - dodania nowego gracza za pomocą funkcji "DODAJ GRACZA" w sekcji "Linki pomocnicze" - **myślę, że te opcję można przenieść do lewego panelu, lub zmienić nazwę sekcji, ponieważ "Linki pomocnicze" kojarzą mi się bardziej z linkami do kontaktu z pomocą techniczną.**
 
-- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że nagłówek "Scouts panel" na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną. 😆**
+![image](https://user-images.githubusercontent.com/87646868/213520889-8c3fa8c5-6994-4793-8667-c5526d085b7d.png)
+
+- po lewej stronie znajduje się panel z funkcjami: przejścia do strony głównej ("Strona główna"), przekierowania do listy graczy ("Gracze"), zmiany języka ("English/Polski") oraz wylogowania z aplikacji ("Wyloguj") - **z tego panelu myślę, że warto przenieść opcję wylogowania w prawy górny róg widoku aplikacji - większość aplikacji posiada właśnie tam opcję wylogowania/dostępu do opcji konta, więc automatycznie użytkownik może tam szukać tego przycisku. Szkoda trochę, że nagłówek "Scouts panel" na niebieskim pasku w lewym górnym rogu nie jest zlinkowany ze stroną główną - bardzo długo klikałem w niego z nadzieją na to, że zostanę przekierowany właśnie na stronę główną.** 😆
+
+![image](https://user-images.githubusercontent.com/87646868/213521241-d78e610e-6ff5-40f4-a923-80e6f99826da.png)
 
 - w sekcji Scouts Panel" mamy link do kontaktu z zespołem deweloperskim ("DEV TEAM Contact").
 
+![image](https://user-images.githubusercontent.com/87646868/213521330-d0a8a610-3611-4fb2-9540-1138953ceba7.png)
+
 Strona "Gracze" zawiera listę wszystkich utworzonych graczy z informacjami takimi jak: "Imię", "Nazwisko", "Wiek", "Pozycja", "Klub",  "Recenzja", "Mecze", "Raporty"(wyświetla się 10 graczy, można otwierać kolejne podstrony za pomocą przycisków "<  >"). Istnieje możliwość sortowania oraz filtrowania. **Tutaj dla mnie największym problemem jest poziomy suwak przewijania strony - jest on niestety słabo widoczny, zlewa się z tłem strony, a dodatkowo wygląda to nieestetycznie, gdy użytkownik przestaje widzieć większość informacji - wiąże się ten problem z polami prowadzania danych, o czym jezcze wspomnę. 😉**
 
+![image](https://user-images.githubusercontent.com/87646868/213521508-d3ba4476-b301-4255-b1a2-13af18c70193.png)
+
 Dodatkowe opcje dla listy graczy: pobranie listy w formacie CSV, wydrukowanie oraz wybranie wyświetlanych kolumn.
+
+![image](https://user-images.githubusercontent.com/87646868/213521597-58980460-8c3c-456f-9577-c0d07b49b6ca.png)
 
 Po kliknięciu w danego zawodnika użytkownik powinien zostać przekierowany do widoku edycji gracza.
 
