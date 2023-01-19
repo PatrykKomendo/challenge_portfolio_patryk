@@ -136,3 +136,9 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 - tutaj również nie wszystkie elementy zostały spolszczone.
 
 - nieograniczone pola tekstowe.
+
+# Task 2
+
+## Subtask 1
+
+[Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
