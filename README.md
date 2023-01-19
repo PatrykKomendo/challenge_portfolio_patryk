@@ -185,9 +185,7 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 - "Zle przyjecie" zamiast "Złe przyjęcie" w akcji "Strata". "Przejecie podania" zmiast "Przejęcie podania" w akcji "Odbiór".
 
-![image](https://user-images.githubusercontent.com/87646868/213527763-08bd55d3-ff8e-4d25-8aab-e37cff1b2869.png)
-
-![image](https://user-images.githubusercontent.com/87646868/213527874-b91df852-d3fd-460b-a6f3-eb28da93ff60.png)
+![image](https://user-images.githubusercontent.com/87646868/213527763-08bd55d3-ff8e-4d25-8aab-e37cff1b2869.png) ![image](https://user-images.githubusercontent.com/87646868/213527874-b91df852-d3fd-460b-a6f3-eb28da93ff60.png)
 
 **Strona "Raporty"**
 
