@@ -141,4 +141,4 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 ## Subtask 1
 
-[Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
+💽 [Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
