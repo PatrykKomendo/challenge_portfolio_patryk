@@ -205,11 +205,11 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 ## Subtask 1
 
-💽 [Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
+[Link do pliku]([https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing](https://docs.google.com/spreadsheets/d/102rX6SGLiTc45IABsGgtvsTj9-TFgcTODG0oOM-qKu0/edit#gid=0))
 
 ## Subtask 2
 
-💽 [Link do Dysku Google](https://drive.google.com/drive/folders/1z6fK81iBpY5IwoANOiLL7B2XbOYTRUch?usp=sharing)
+[Link do pliku](https://docs.google.com/spreadsheets/d/1FFQRnM8CLRRXmFwGvOEDtqBdd983yAq7G2YHBoXJEIw/edit#gid=0)
 
 ## Subtask 3
 
