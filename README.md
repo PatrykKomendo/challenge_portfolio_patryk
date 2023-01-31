@@ -217,6 +217,8 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 "Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności." - [źródło](https://www.wyszkolewas.com.pl/przypadki-testowe-przyklady/)
 
+Jeżeli chodzi o moje zdanie - przypadki testowe piszemy, aby przetestować wybrane funkcjonalności aplikacji (można tworzyć scenariusze testowe do danej funkcjonalności, w których umieścimy zbiór przypadków testowych jej dotyczących). Jest to też pewna forma dokumentacji testowej, dobrze opisane przypadki testowe pozwalają np. przy testach regresji oraz powinny być łatwe do wykonania przez innych testerów w projekcie.
+
 # Task 3
 
 ## Subtask 2
