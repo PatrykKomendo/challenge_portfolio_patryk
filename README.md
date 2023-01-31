@@ -227,4 +227,4 @@ Jeżeli chodzi o moje zdanie - przypadki testowe piszemy, aby przetestować wybr
 
 ## Subtask 3 
 
-👉 [Link do pliku]()
+👉 [Link do pliku](https://docs.google.com/document/d/1WJo0hIQEt7TuDA3fke_hKyR7RBzwQv0L8wqJOvs215Y/edit?usp=sharing)
