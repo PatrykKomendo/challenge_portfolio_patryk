@@ -205,11 +205,11 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 ## Subtask 1
 
-[Link do pliku](https://docs.google.com/spreadsheets/d/102rX6SGLiTc45IABsGgtvsTj9-TFgcTODG0oOM-qKu0/edit#gid=0)
+👉 [Link do pliku](https://docs.google.com/spreadsheets/d/102rX6SGLiTc45IABsGgtvsTj9-TFgcTODG0oOM-qKu0/edit#gid=0)
 
 ## Subtask 2
 
-[Link do pliku](https://docs.google.com/spreadsheets/d/1FFQRnM8CLRRXmFwGvOEDtqBdd983yAq7G2YHBoXJEIw/edit#gid=0)
+👉 [Link do pliku](https://docs.google.com/spreadsheets/d/1FFQRnM8CLRRXmFwGvOEDtqBdd983yAq7G2YHBoXJEIw/edit#gid=0)
 
 ## Subtask 3
 
@@ -217,14 +217,14 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 
 "Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności." - [źródło](https://www.wyszkolewas.com.pl/przypadki-testowe-przyklady/)
 
-Jeżeli chodzi o moje zdanie - przypadki testowe piszemy, aby przetestować wybrane funkcjonalności aplikacji (można tworzyć scenariusze testowe do danej funkcjonalności, w których umieścimy zbiór przypadków testowych jej dotyczących). Jest to też pewna forma dokumentacji testowej, dobrze opisane przypadki testowe pozwalają np. przy testach regresji oraz powinny być łatwe do wykonania przez innych testerów w projekcie.
+Jeżeli chodzi o moje zdanie - przypadki testowe piszemy, aby przetestować wybrane funkcjonalności aplikacji (można tworzyć scenariusze testowe do danej funkcjonalności, w których umieścimy zbiór przypadków testowych jej dotyczących). Jest to też pewna forma dokumentacji testowej. Dobrze opisane przypadki testowe pozwalają np. przy testach regresji oraz powinny być łatwe do wykonania przez innych testerów w projekcie.
 
 # Task 3
 
 ## Subtask 2
 
-[Link do pliku](https://docs.google.com/spreadsheets/d/18z7kQWMvBCEjlhVweE_w6sUEXfwb4yGqCe455i9KW6g/edit?usp=sharing)
+👉 [Link do pliku](https://docs.google.com/spreadsheets/d/18z7kQWMvBCEjlhVweE_w6sUEXfwb4yGqCe455i9KW6g/edit?usp=sharing)
 
 ## Subtask 3 
 
-[Link do pliku]()
+👉 [Link do pliku]()
