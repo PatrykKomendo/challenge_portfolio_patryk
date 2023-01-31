@@ -216,3 +216,13 @@ Zmieniłbym tło na stronie logowania - na takie jakie jest w pozostałych eleme
 🤔 [Po co piszemy test case'y?](https://www.youtube.com/watch?v=OO3FANjwKHY&t=4s)
 
 "Przypadki testowe piszemy, aby udokumentować w przejrzysty sposób różne możliwości obsłużenia modułów w ramach danej aplikacji. Dobre pokrycie przypadkami testowymi oprogramowania daje nam pewność podczas testów, że nie pominęliśmy żadnej ważnej funkcjonalności." - [źródło](https://www.wyszkolewas.com.pl/przypadki-testowe-przyklady/)
+
+# Task 3
+
+## Subtask 2
+
+[Link do pliku](https://docs.google.com/spreadsheets/d/18z7kQWMvBCEjlhVweE_w6sUEXfwb4yGqCe455i9KW6g/edit?usp=sharing)
+
+## Subtask 3 
+
+[Link do pliku]()
