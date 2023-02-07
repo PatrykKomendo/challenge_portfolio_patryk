@@ -228,3 +228,22 @@ Jeżeli chodzi o moje zdanie - przypadki testowe piszemy, aby przetestować wybr
 ## Subtask 3 
 
 👉 [Link do pliku](https://docs.google.com/document/d/1WJo0hIQEt7TuDA3fke_hKyR7RBzwQv0L8wqJOvs215Y/edit?usp=sharing)
+
+# Task 4
+
+## Subtask 2 
+
+👉 [Link do pliku](https://docs.google.com/spreadsheets/d/1dlcXsLhKjGTJJh2E9x8g00FXTWRt1AzG2i8fcAh6vYQ/edit?usp=sharing)
+
+## Subtask 3
+
+**1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
+
+Aplikacja OLX jest platformą do kupowania oraz sprzedawania usług i towarów przez użytkowników. Istnieje również możliwość zamieszczania ofert pracy oraz odpowiadania na nie. Istnieje także możliwość zamieszczania ofert dotyczących wynajmu mieszkań. 
+
+**2. Kto ma być użytkownikiem końcowym aplikacji?**
+
+Aplikacja jest ogólnodostępna, wystarczy połączenie z internetem. Skierowana jest do osób zainteresowanych ofertami zakupu towaru/usługi lub dla osób, które takie towary/usługi świadczą.
+
+**3. Czu według Ciebie aplikacja jest user friendly?**
+
