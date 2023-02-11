@@ -285,6 +285,32 @@ SELECT * FROM actors WHERE actor_id >= 4 AND actor_id <= 7;
 
 SELECT * FROM customers WHERE customer_id LIKE 2 OR customer_id LIKE 4 OR customer_id LIKE 6;
 
+lub
+
+SELECT * FROM customers WHERE customer_id IN (2,4,6);
+
 ![image](https://user-images.githubusercontent.com/87646868/218272691-31bab58e-e42c-483b-9df0-6386de1965da.png)
 
-**Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+**7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+
+SELECT * FROM customers WHERE customer_id IN (1,3,5);
+
+![image](https://user-images.githubusercontent.com/87646868/218275310-ddf719ed-7aa0-46bd-8e33-06359215bf4e.png)
+
+**8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
+
+SELECT * FROM actors WHERE NAME LIKE 'An_%';
+
+![image](https://user-images.githubusercontent.com/87646868/218275893-c9c8339b-0b6b-4fd6-af1c-918bbb397fdc.png)
+
+**9. Wyświetl dane klienta, który nie ma podanego adresu email.**
+
+SELECT * FROM customers Where email IS NULL;
+
+![image](https://user-images.githubusercontent.com/87646868/218275963-eecb15c7-184b-4a2b-9b1c-664709215ed3.png)
+
+**10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
+![image](https://user-images.githubusercontent.com/87646868/218276191-262a11e4-dc75-44b7-bde1-71d87a9a1cdb.png)
