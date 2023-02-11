@@ -255,7 +255,7 @@ Aplikacja jest ogólnodostępna, wystarczy połączenie z internetem. Skierowana
 
 SELECT * FROM actors ORDER BY surname ASC;
 
-![image](https://user-images.githubusercontent.com/87646868/218270774-9a5d5b84-0859-43c0-8318-07aa8b8dab71.png)
+![image](https://user-images.githubusercontent.com/87646868/218271616-aa297c93-53c7-4dbc-b069-f81d00885a30.png)
 
 2. Wyświetl film, który powstał w 2019 roku.
 
