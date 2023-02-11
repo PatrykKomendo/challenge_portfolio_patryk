@@ -245,7 +245,7 @@ Aplikacja OLX jest platformą do kupowania oraz sprzedawania usług i towarów p
 
 Aplikacja jest ogólnodostępna, wystarczy połączenie z internetem. Skierowana jest do osób zainteresowanych ofertami zakupu towaru/usługi lub dla osób, które takie towary/usługi świadczą.
 
-**3. Czu według Ciebie aplikacja jest user friendly?**
+**3. Czy według Ciebie aplikacja jest user friendly?**
 
 # Task 5
 
