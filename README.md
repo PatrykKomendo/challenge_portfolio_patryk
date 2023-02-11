@@ -251,29 +251,40 @@ Aplikacja jest ogólnodostępna, wystarczy połączenie z internetem. Skierowana
 
 ## Subtask 3
 
-1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+**1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
 SELECT * FROM actors ORDER BY surname ASC;
 
 ![image](https://user-images.githubusercontent.com/87646868/218271616-aa297c93-53c7-4dbc-b069-f81d00885a30.png)
 
-2. Wyświetl film, który powstał w 2019 roku.
+**2. Wyświetl film, który powstał w 2019 roku.**
 
 SELECT * FROM movies WHERE year_of_production = 2019;
 
 ![image](https://user-images.githubusercontent.com/87646868/218270937-5d70860e-4367-4f51-8936-2b1d606343d4.png)
 
-3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+**3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
 SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999;
 
 ![image](https://user-images.githubusercontent.com/87646868/218271307-d9d29bc7-e473-4324-b048-37e55f8077f2.png)
 
-4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+**4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
 
 SELECT title, price FROM movies WHERE price < 7;
 
 ![image](https://user-images.githubusercontent.com/87646868/218271513-38693ad4-28bb-4f1f-98f4-0527eccd00e7.png)
 
-5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+**5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
 
+SELECT * FROM actors WHERE actor_id >= 4 AND actor_id <= 7;
+
+![image](https://user-images.githubusercontent.com/87646868/218272045-68cd9d20-bd3a-439f-bc7e-bc70404630b7.png)
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+SELECT * FROM customers WHERE customer_id LIKE 2 OR customer_id LIKE 4 OR customer_id LIKE 6;
+
+![image](https://user-images.githubusercontent.com/87646868/218272691-31bab58e-e42c-483b-9df0-6386de1965da.png)
+
+**Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
