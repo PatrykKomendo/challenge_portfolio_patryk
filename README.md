@@ -323,9 +323,13 @@ SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 ## Subtask 1
 
-11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+**11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**
 
+UPDATE customers
+SET surname = 'Miler'
+WHERE customer_id = 3;
 
+![image](https://user-images.githubusercontent.com/87646868/219947605-aefb727d-1f6f-4732-83af-eccbdcff86c7.png)
 
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
@@ -333,7 +337,11 @@ SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE customer_id = 4;
 
+![image](https://user-images.githubusercontent.com/87646868/219947783-f73604c5-b43b-431e-b86f-1aa29dd3035c.png)
 
 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
@@ -341,7 +349,34 @@ SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
+ALTER TABLE customers
+ADD pseudonym char(3);
 
+UPDATE customers
+SET pseudonym = 'OLB'
+WHERE customer_id =1;
+
+UPDATE customers
+SET pseudonym = 'KAN'
+WHERE customer_id =2;
+
+UPDATE customers
+SET pseudonym = 'ANM'
+WHERE customer_id =3;
+
+UPDATE customers
+SET pseudonym = 'PAK'
+WHERE customer_id =4;
+
+UPDATE customers
+SET pseudonym = 'MAG'
+WHERE customer_id =5;
+
+UPDATE customers
+SET pseudonym = 'NAP'
+WHERE customer_id =6;
+
+![image](https://user-images.githubusercontent.com/87646868/219949618-53142b16-d1e8-4af2-adcd-98d07c898244.png)
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
