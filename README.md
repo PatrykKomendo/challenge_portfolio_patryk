@@ -333,7 +333,9 @@ WHERE customer_id = 3;
 
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
+SELECT * FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id;
 
+![image](https://user-images.githubusercontent.com/87646868/220373868-f8d4a51a-4478-4457-8bef-69efc91f8804.png)
 
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
@@ -380,15 +382,21 @@ WHERE customer_id =6;
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
+SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_id;
 
+![image](https://user-images.githubusercontent.com/87646868/220378632-47f36afd-cec6-4c26-9acd-e827258e0d98.png)
 
 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
 
+SELECT name, surname FROM actors UNION SELECT name, surname FROM customers ORDER BY name ASC;
 
+![image](https://user-images.githubusercontent.com/87646868/220384082-8ff73173-99c0-44bf-ad63-553db4c9195f.png)
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
+UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;
 
+![image](https://user-images.githubusercontent.com/87646868/220371081-f9bc4e64-d5f8-4424-8fab-d92a501eaf55.png)
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
@@ -396,9 +404,14 @@ WHERE customer_id =6;
 
 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
 
+INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@emial.com', 'HOA');
 
+![image](https://user-images.githubusercontent.com/87646868/220370013-6e8fab96-ffbe-4c16-a32b-c00f1eccbe50.png)
 
 ## Subtask 2
 
-Wynik z egzaminu: 12/15 
+🥇 Wynik z egzaminu: 12/15 
 
+## Subtask 3 
+
+👉 [Link do portfolio](https://github.com/PatrykKomendo/Portfolio)
