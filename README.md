@@ -335,7 +335,7 @@ WHERE customer_id = 3;
 
 SELECT * FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id;
 
-![image](https://user-images.githubusercontent.com/87646868/220373868-f8d4a51a-4478-4457-8bef-69efc91f8804.png)
+![image](https://user-images.githubusercontent.com/87646868/220391139-9fca00fa-26ec-47a2-aef2-91e24be16e80.png)
 
 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
