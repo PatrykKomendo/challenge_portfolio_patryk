@@ -331,13 +331,13 @@ WHERE customer_id = 3;
 
 ![image](https://user-images.githubusercontent.com/87646868/219947605-aefb727d-1f6f-4732-83af-eccbdcff86c7.png)
 
-12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
 SELECT * FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id;
 
 ![image](https://user-images.githubusercontent.com/87646868/220373868-f8d4a51a-4478-4457-8bef-69efc91f8804.png)
 
-13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
 UPDATE customers
 SET email = 'pati@mail.com'
@@ -345,11 +345,11 @@ WHERE customer_id = 4;
 
 ![image](https://user-images.githubusercontent.com/87646868/219947783-f73604c5-b43b-431e-b86f-1aa29dd3035c.png)
 
-14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
+Nie udało mi się wykonać odpowiedniego zapytania 😞
 
-
-15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
 ALTER TABLE customers
 ADD pseudonym char(3);
@@ -380,29 +380,29 @@ WHERE customer_id =6;
 
 ![image](https://user-images.githubusercontent.com/87646868/219949618-53142b16-d1e8-4af2-adcd-98d07c898244.png)
 
-16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
 SELECT DISTINCT movies.title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_id;
 
 ![image](https://user-images.githubusercontent.com/87646868/220378632-47f36afd-cec6-4c26-9acd-e827258e0d98.png)
 
-17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
 
 SELECT name, surname FROM actors UNION SELECT name, surname FROM customers ORDER BY name ASC;
 
 ![image](https://user-images.githubusercontent.com/87646868/220384082-8ff73173-99c0-44bf-ad63-553db4c9195f.png)
 
-18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
 
 UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;
 
 ![image](https://user-images.githubusercontent.com/87646868/220371081-f9bc4e64-d5f8-4424-8fab-d92a501eaf55.png)
 
-19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
 
+Nie udało mi się wykonać odpowiedniego zapytania 😞
 
-
-20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
 
 INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@emial.com', 'HOA');
 
