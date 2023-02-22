@@ -333,9 +333,9 @@ WHERE customer_id = 3;
 
 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
-SELECT * FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id;
+SELECT * FROM sale INNER JOIN customers ON sale.customer_id=customers.customer_id WHERE movie_id = 4;
 
-![image](https://user-images.githubusercontent.com/87646868/220391139-9fca00fa-26ec-47a2-aef2-91e24be16e80.png)
+![image](https://user-images.githubusercontent.com/87646868/220601768-21c3a9c7-f312-47f8-a73a-ee7266e9bb80.png)
 
 **13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
@@ -347,7 +347,9 @@ WHERE customer_id = 4;
 
 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
-Nie udało mi się wykonać odpowiedniego zapytania 😞
+SELECT customers.name, customers.surname, movies.title FROM customers JOIN sale ON customers.customer_id = sale.customer_id JOIN movies ON sale.movie_id = movies.movie_id;
+
+![image](https://user-images.githubusercontent.com/87646868/220603579-64740200-31dd-434a-b82f-df740983e4df.png)
 
 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
@@ -400,7 +402,9 @@ UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;
 
 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
 
-Nie udało mi się wykonać odpowiedniego zapytania 😞
+SELECT name, surname, title FROM actors JOIN cast ON actors.actor_id = cast.actor_id JOIN movies ON cast.movie_id = movies.movie_id WHERE actors.actor_id = 4;
+
+![image](https://user-images.githubusercontent.com/87646868/220605271-adee6ff8-7762-4621-86f5-c775244ffb4f.png)
 
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
 
